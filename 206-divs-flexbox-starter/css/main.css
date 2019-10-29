@@ -108,10 +108,19 @@ body {
   height: 100%;
 }
 
+header, main, footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
   justify-content: space-between;
 }
 
@@ -123,6 +132,7 @@ body {
   height: 300px;
   display: flex;
   width: 30%;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
